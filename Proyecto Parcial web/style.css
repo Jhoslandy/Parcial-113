@@ -1,0 +1,142 @@
+* {
+    font-family: serif;
+}
+
+body {
+    background-image: url(Imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 110px;
+}
+
+.cabezera {
+    background-color: rgba(240, 255, 255, 0.121);
+    color: white;
+    padding: 0;
+    margin: 5px;
+}
+
+.cabezera_ul {
+    display: inline-block;
+    width: 48%;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.cabezera_li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px 10px;
+    margin: 0px 7px;
+}
+
+.cabezera_li-a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    display: inline-block;
+    width: 49%;
+    color: rgba(108,196,220,255);
+}
+
+span {
+    color: white;
+}
+
+.cont_general {
+    display: inline-block;
+    color: white;
+    margin: auto;
+    width: 100%;
+}
+
+.cont_nav {
+    background-color: rgba(41, 35, 30, 0.803);
+    margin: 10px 0px;
+}
+
+.cont_ul {
+    display: inline-block;
+}
+
+.cont_li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 35px;
+    padding: 0px 23px;
+}
+
+.cont_li-a {
+    text-decoration: none;
+    color: white;
+}
+
+#site-search {
+    padding-left: 13px;
+    margin-left: 30px;
+    background-color: black;
+    color: white;
+}
+
+input::placeholder {
+    background-color: black;
+    color: white;
+}
+
+button {
+    background-color: black;
+    color: white;
+}
+
+article {
+    background-color: rgba(41, 35, 30, 0.803);
+}
+
+.galeria1 {
+    display: inline-block;
+    width:24% ;
+    margin: 3px;
+    background-color: black;
+}
+
+.galeria1_img {
+    width: 100%;
+    height: 170px;
+}
+
+@media screen and (max-width:1134px){
+    .galeria1 {
+        width: 31%;
+    }
+    .galeria1_img {
+        height: 145px;
+    }
+}
+@media screen and (max-width:635px){
+    .galeria1 {
+        width: 45%;
+    }
+    body {
+        padding: 30px 37px;
+    }
+    .galeria1_img {
+        height: 120px;
+    }
+    .cabezera_ul {
+        width: 100%;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width:484px){
+    .cont_li {
+        border: 1px solid white;
+        display: block;
+        width: 40%;
+    }
+}
+

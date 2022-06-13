@@ -1,0 +1,157 @@
+* {
+    font-family: serif;
+}
+
+body {
+    background-image: url(Imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 110px;
+}
+
+.cabezera {
+    background-color: rgba(240, 255, 255, 0.121);
+    color: white;
+    padding: 0;
+    margin: 5px;
+}
+
+.cabezera_ul {
+    display: inline-block;
+    width: 48%;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.cabezera_li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px 10px;
+    margin: 0px 7px;
+}
+
+h1 {
+    display: inline-block;
+    width: 49%;
+    color: rgba(108,196,220,255);
+}
+
+span {
+    color: white;
+}
+
+.cont_nav {
+    background-color: rgba(41, 35, 30, 0.803);
+    margin: 10px 0px;
+}
+
+.cont_ul {
+    display: inline-block;
+}
+
+.cont_li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 35px;
+    padding: 0px 23px;
+}
+
+.cont_li-a {
+    text-decoration: none;
+    color: white;
+}
+
+#site-search {
+    padding-left: 13px;
+    margin-left: 30px;
+    background-color: black;
+    color: white;
+}
+
+input::placeholder {
+    background-color: black;
+    color: white;
+}
+
+article {
+    background-color: rgba(41, 35, 30, 0.803);
+}
+
+.container_img {
+    display: inline-block;
+    width: 30%;
+    height: 250px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    margin: 5px;
+    border: 6px inset greenyellow;
+}
+
+.container_p {
+    color: white;
+    display: block;
+    width: 67%;
+    height: 230px;
+    float: right;
+    padding: 8px;
+}
+
+h2 {
+    text-align: center;
+    background-color: rgb(3, 221, 221);
+    font-size: 33px;
+    border-radius: 9px;
+}
+
+@media screen and (max-width:790px){
+    .container_img {
+        width: 20%;
+        height: 140px;
+    }
+    .container_p {
+        width: 70%;
+        height: 130px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:467px){
+    h2 {
+        font-size: 10px;
+    }
+    .container_img {
+        width: 16%;
+        height: 90px;
+    }
+    .container_p {
+        width: 75%;
+        height: 80px;
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width:635px){
+    body {
+        padding: 30px 37px;
+    }
+    .cabezera_ul {
+        width: 100%;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width:484px){
+    .cont_li {
+        border: 1px solid white;
+        display: block;
+        width: 40%;
+    }
+}

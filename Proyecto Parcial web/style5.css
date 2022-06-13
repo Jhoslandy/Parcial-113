@@ -1,0 +1,75 @@
+body {
+    background-image: url(imagenes/shadowlands.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 130px 150px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.contenedor {
+    text-align: center;
+}
+
+.contenedor1 {
+    background-color: rgba(255, 255, 255, 0.523);
+    padding: 40px;
+    margin: 40px;
+    display: inline-block;
+    width: 45%;
+    border: 5px double white;
+    border-radius: 7px;
+}
+
+input {
+    background-color: rgba(109, 109, 109, 0.933);
+    display: inline;
+    width: 45%;
+    margin: 10px 70px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+input::placeholder {
+    background-color: rgba(109, 109, 109, 0.933);
+    color: white;
+}
+
+label {
+    display: inline-block;
+}
+
+button {
+    margin: 7px;
+    border-radius: 15px;
+}
+
+@media screen and (max-width:1125px) {
+    input {
+        display: block;
+    }
+    label {
+        display: block;
+    }
+}
+
+
+@media screen and (max-width:950px) {
+    body {
+        padding: 30px;
+    }
+    .contenedor {
+        text-align: none;
+        width: 100%;
+    }
+    .contenedor1 {
+        text-align: center;
+        width: 90%;
+        padding: 0;
+        margin: 0;
+    }
+}
